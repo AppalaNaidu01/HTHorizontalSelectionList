@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/AppalaNaidu01/HTHorizontalSelectionList.git" }
-  s.source_files  = 'Source'
+  s.source_files  = 'Source/**/*.{h,m,swift}'
   s.requires_arc = true
   s.frameworks        = 'Foundation', 'UIKit'
 
